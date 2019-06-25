@@ -1,5 +1,6 @@
 {% extends 'base.html' %} 
 {% block content %}
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 heading">
@@ -10,11 +11,12 @@
             <h1> {{name}} </h1>
         </div>
     </div>
+    
     <div class="row">
         {% for article in news %}
         <div class="col-md-3 articles-details">
             <a href={{article.url}} target="_blank">
-                <img src={{article.urlToImage}} alt="IMAGE LOADING..." class="img-responsive">
+                <img src={{article.urlToImage}} erclass="img-responsive">
             </a>
             <div class="words">
                 <h4 class="text-bold"> {{article.title}} </h4>
