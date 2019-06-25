@@ -112,7 +112,7 @@ def topheadlines(limit):
 
     return topheadlines_results
 
-def everything(limit):
+def allnews(limit):
     '''
     Function that gets articles based on the source id
     '''
