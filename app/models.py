@@ -1,4 +1,5 @@
 class Sources:
+    
     '''
     Sources class that defines source objects
     '''
