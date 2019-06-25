@@ -1,4 +1,4 @@
-NewsHighlight Application
+NewsHighlights Application
 ------------------------
 
 24/6/2019
