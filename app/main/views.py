@@ -43,13 +43,13 @@ def headlines(per_page):
     title = 'Top Headlines'
     return render_template('topheadlines.html',title=title, name='Top Headlines' ,news=topheadlines_news)
 
-@main.route('/everything&<int:per_page>')
+@main.route('/allnews&<int:per_page>')
 def all_news(per_page):
     '''
     Function that returns top headlines articles
     '''
     # per_page = 40
-    everything_news = everything(per_page)
+    everything_news = allnews(per_page)
     title = 'All News'
     
     search_articles = request.args.get('search_query')
